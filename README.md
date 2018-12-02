@@ -1,7 +1,5 @@
 # This is my first bootstrap exercise.
 
-Welcome! Take it easy!
+Welcome! and Take it easy!
 
-# this is h1
-
-## this is h2
+This is a learning process. 
