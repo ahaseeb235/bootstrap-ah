@@ -10,13 +10,65 @@
 </head>
 
 <body>
+        <!-- nav -->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+                <!-- logo -->
+                    <div class="navbar-header">
+                        <a href="/" class="navbar-brand">Bootstrap for fun</a>
+                    </div>
+                <!-- /logo -->
+                   
+                <!-- navbar -->
+                     <ul class="nav navbar-nav">
+                        <li class="active"><a href="/">Home</a></li>
+                        <li><a href="/">About</a></li>
+                        <li><a href="/">Contact</a></li>
+                        <li class="visible-xs"><a href="/">Sign Up!</a></li>
+                    </ul>
+                <!-- /navbar -->
+            
+                <!-- Sign up button and Message -->
+                     <div class="navbar-header navbar-right hidden-xs">
+                        <a href="/login" class="btn btn-default navbar-btn">Sign Up!</a>
+                        <p class="navbar-text"><i>Great tool for developing Websites</i></p>
+                    </div>
+                 <!-- Sign up button and Message -->
+            
+            
+            
+        <!-- /nav -->
+            
+    
+            
+        </div>
+        
+    </nav>
+        
+        <!-- / nav bar -->
+        
+    
     <article class="container">
+        <!-- Alert -->
+            <div class="class row hidden-xs">
+                <div class="col-xs-12">
+                    <div class="alert alert-warning">
+                        <strong class="text-danger">Its FREE now.</strong> It is easy and fun to learn.
+                        Possibilities are endless, but not unlimited. Its simple and the libraries of codes are vast. <a href="https://getbootstrap.com/" target="_blank">Start NOW!</a>
+                    </div>
+                </div>
+                
+            </div>
+        
+        
+        <!-- / Alert -->
+        
         <!-- Callout -->
         <div class="row">
             <div class="col-xs-12">
-                <section class="callout">
+                <section class="callout jumbotron text-center">
                     <h1>The finest Bootstrap learning experience</h1>
-                    <p class="lead">It can be fun if you ask me. Sign up today and I will not charge you. <s>$$$$</s><strong><mark>It is FREE</mark></strong></p>
+                    <p class="lead">It can be fun if you ask me. Sign up today and I will not charge you. <s class="hidden-xs">$$$$</s><span class="visible-xs"><br></span><strong><mark>It is FREE</mark></strong></p>
                     <p><button class="btn btn-large btn-success">Sign up!</button></p>
                     <p class="text-muted">
                         <smal>*You still have to put in the effort and the hours to learn and practice</smal>
@@ -25,38 +77,53 @@
             </div>
         </div>
         <!-- / Callout -->
-        <hr>
 
         <!-- Quotes -->
         <section class="quotes">
             <div class="row">
                 <div class="col-xs-12">
-                    <h2 class="text-uppercase">quotes</h2>
+                    <div class="page-header">
+                        <h2 class="text-uppercase">quotes</h2>
+                    </div>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-xs-12 col-md-6">
-                    <blockquote class="quote">
-                        <div class="quotes">
-                            <p>I've been introduced to Bootstrap and I can't let go now.</p>
-                            <footer>- J Doe on <cite title="Twitter">Twitter</cite></footer>
+                    <div class="media">        
+                        <div class="media-left hidden-xs">
+                           <img src="images/cat4.jpg" class="img-circle media-object" height=80 width=80>
                         </div>
-                    </blockquote>
+                    </div>
+                    <div class="media-body">
+                        <blockquote class="quote">
+                            <div class="quotes">
+                                <p>I've been introduced to Bootstrap and I can't let go now.</p>
+                                <footer>- J Doe on <cite title="Twitter">Twitter</cite></footer>
+                            </div>
+                        </blockquote>
+                    </div>
                 </div>
             
                 <div class="col-xs-12 col-md-6">
-                    <blockquote class="quote">
-                        <div class="quotes">
-                            <p>Bootstrap is easy to work with because it is structured</p>
-                            <footer>- M Beth on <cite title="Facebook">Facebook</cite></footer>
+                    <div class="media">        
+                        <div class="media-left hidden-xs">
+                           <img src="images/cat6.jpg" class="img-circle media-object" height=100 width=100>
                         </div>
-                    </blockquote>
+                    </div>
+                    <div class="media-body">
+                        <blockquote class="quote">
+                            <div class="quotes">
+                                <p>Bootstrap is easy to work with because it is structured</p>
+                                <footer>- M Beth on <cite title="Facebook">Facebook</cite></footer>
+                            </div>
+                        </blockquote>
+                    </div>
                 </div>
             </div>
         </section>
         <!-- / Quotes -->
-        <hr>
+    
 
 
 
@@ -64,28 +131,51 @@
         <section class="features">
             <div class="row">
                 <div class="col-xs-12">
-                    <h2 class="text-uppercase">Features</h2>
+                    <div class="page-header">
+                        <h2 class="text-uppercase">Features</h2>
+                    </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-xs-12 col-md-6 col-lg-4">
-                    <div class="features">
-                        <h3>Bootstrap is simple</h3>
-                        <p>Yes. Bootstrap is simple as most of it is pre-programmed so you dont have to be an expert to work with Bootstrap.</p>
-                        <p><a class="btn btn-sm btn-info" href="#">Read more</a></p>
+                    <div class="media">        
+                        <div class="media-center">
+                           <img src="images/cat1.jpg" class="img-circle media-object" height=100 width=100>
+                        </div>
+                        <div class="media-body">
+                            <div class="features">
+                                <h3><span class="glyphicon glyphicon-ok hidden-xs"></span> Bootstrap is simple</h3>
+                                <p>Yes. Bootstrap is simple as most of it is pre-programmed so you dont have to be an expert to work with Bootstrap.</p>
+                                <p><a class="btn btn-sm btn-info" href="#">Read more</a></p>
+                            </div>
+                        </div>
                     </div>
+                        
+                            
+                            
+                            
                 </div>
                 <div class="col-xs-12 col-md-6 col-lg-4">
-                    <div class="features">
-                        <h3>Bootstrap is Versatile</h3>
-                        <p>Yes. Bootstrap is versatile as it is responsive and easy to work with on any project for any device.</p>
-                        <p><a class="btn btn-sm btn-success" href="#">Read more</a></p>
+                    <div class="media">        
+                        <div class="media-center">
+                           <img src="images/cat3.jpg" class="img-circle media-object" height=100 width=100>
+                        </div>
+                        
+                        <div class="media-body">
+                            <div class="features">
+                                <h3><span class="glyphicon glyphicon-random hidden-xs"></span> Bootstrap is Versatile <span class="label label-danger">HOT!</span></h3>
+                                <p>Yes. Bootstrap is versatile as it is responsive and easy to work with on any project for any device.</p>
+                                <p><a class="btn btn-sm btn-success" href="#">Read more</a></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                
+                
                 <div class="col-xs-12 hidden-md col-lg-4">
                     <div class="features">
-                        <h3>Bootstrap is Widely Available</h3>
-                        <p>Yes. Bootstrap is open source, and hence there is a lot of help out there and many applications. </p>
+                        <h3><span class="glyphicon glyphicon-king hidden-xs"></span> Bootstrap is <mark class="text-primary">FREE</mark> <span class="label label-primary">Featured</span></h3>
+                        <p>Yes. Bootstrap is open source, and hence there is a lot of help out there and many applications. And this is an example for "Features" </p>
                         <p><a class="btn btn-sm btn-warning" href="#">Read more</a></p>
                     </div>
                 </div>
