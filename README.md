@@ -17,7 +17,7 @@ We have done the following:
 10. links that open in a new window
 11. added glyph icons
 12. hide elements on small screen "hidden-xs"
-13. Laebls - "label-success"
-14. 
+13. Labels - "label-success"
+14. Modals - pop up for sign up
 
-Amazing stuff
+<h1>Amazing stuff!</h1>
