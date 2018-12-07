@@ -190,29 +190,40 @@
         </div>
         <!-- / call to action button for more info -->
     </article>
-    
-            <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-          Launch demo modal
-        </button>
         
         <!-- Modal -->
         <div class="modal fade" id="SignupModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <h3 class="modal-title" id="exampleModalLabel">Sign Up for <span class="label label-primary">FREE</span></h3>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>
               </div>
+              
+              <!-- pop up modal sign up box-->
               <div class="modal-body">
-                ...
+                     <form>
+                      <div class="form-group">
+                        <label for="Email1">Email address</label>
+                        <input type="email" class="form-control" id="Email1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                      </div>
+                      <div class="form-group">
+                        <label for="Password">Password</label>
+                        <input type="password" class="form-control" id="Password" placeholder="Password">
+                      </div>
+                       <div class="form-group">
+                        <label for="passwordRepeat">Repeat Password</label>
+                        <input type="password" class="form-control" id="passwordRepeat" placeholder="Repeat Password">
+                      </div>
+                      
+                      <button type="submit" class="btn btn-success">Sign Up!</button>
+                </form>
+              <!-- / pop up modal sign up box-->
               </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
-              </div>
+              
             </div>
           </div>
         </div>
