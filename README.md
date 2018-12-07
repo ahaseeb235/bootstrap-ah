@@ -19,5 +19,6 @@ We have done the following:
 12. hide elements on small screen "hidden-xs"
 13. Labels - "label-success"
 14. Modals - pop up for sign up
+15. Sign up form
 
 <h1>Amazing stuff!</h1>
