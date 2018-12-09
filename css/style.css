@@ -8,14 +8,6 @@ body {
     
 }
 
-.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 1);
-}
 
 .callout-container {
     height: 100vh;
@@ -30,9 +22,20 @@ body {
     position: relative;
 }
 
+/* opaque-overlay */
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
 
 
 .quotes-container {
+    background-color: gray;
     
 }
 
@@ -40,11 +43,78 @@ body {
     
 }
 
+/* navbar */
+
+.navbar {
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, .25);
+    border: 0;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border: 0;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+    color: white;
+}
+
+.navbar .navbar-brand:hover {
+    color: white;
+}
+
+.navbar-default .navbar-nav a {
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: white;
+    background: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+}
+
+.navbar-btn {
+    border: 0;
+    border-radius: 16px;
+    width: 100px;
+    background-color: #f05f40;
+    color: white;
+}
+
+.navbar-btn:hover {
+    background-color: #df4929;
+    border-color: #df4929;
+    color: white;
+}
+
 /* jumbotron */
 
 .jumbotron {
     background-color: transparent;
-    alignment: center;
 }
 
 .jumbotron .h1, .jumbotron h1 {
@@ -55,10 +125,34 @@ body {
     color: white;
 }
 
+
+/* block divider */
+
 .block-divider--orange {
     background-color: orange;
-    width: 100px;
+    width: 200px;
     height: 5px;
  
 }
 
+/* buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 25px;
+    width: 150px;
+}
+
+.btn--red {
+    color: white;
+    background-color: orange; 
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: green;
+    border-color: green;
+    color: white;
+}
